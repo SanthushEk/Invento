@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧪 Invento-Product Management Dashboard
 
-## Getting Started
+The **Product Management Dashboard** is a modern web application built with **Next.js**, **React.js**, and **Tailwind CSS**, designed to allow users to **add, view, edit, and delete products**. It demonstrates a **client-side CRUD application** with **Local Storage**, modular component design, responsive UI, and optional features like **dark mode, toast notifications, and form validation**.
 
-First, run the development server:
+This project was developed as part of a **Full Stack Intern Assessment** to showcase practical skills in modern frontend development.
 
+---
+
+## 🔹 Project Overview
+
+Managing products is a key functionality in many business applications. This dashboard focuses on delivering a **clean and intuitive user experience** while providing robust features:
+
+- **Add Products:** Add new products with name, price, description, and optional image.  
+- **View Products:** Display products in cards or table layout for easy browsing.  
+- **Edit Products:** Update product details using a modal form.  
+- **Delete Products:** Remove products safely with a confirmation dialog.  
+- **Persistent Storage:** All product data is saved in **Local Storage** and remains after page reload.  
+
+The application demonstrates **modular React component design, responsive layout, and real-world state management**.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Next.js (App Router), React.js  
+- **Styling:** Tailwind CSS  
+- **UI Components:** shadcn/ui  
+- **Icons:** Lucide React  
+- **State & Storage:** React State + Local Storage  
+- **Optional Features:** Dark mode toggle, toast notifications, form validation  
+
+---
+
+## ⚙️ Setup Instructions
+
+### 01. Clone the Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/your-username/product-management-dashboard.git
+cd product-management-dashboard
